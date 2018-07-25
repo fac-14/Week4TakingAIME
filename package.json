@@ -5,17 +5,13 @@
   "main": "logic.js",
   "scripts": {
     "test": "nodemon ./logic.test.js | tap-spec",
-    "start": "node src/server'.js"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fac-14/Week4TakingAIME.git"
   },
-  "keywords": [
-    "emoji",
-    "search",
-    "autocomplete"
-  ],
+  "keywords": ["emoji", "search", "autocomplete"],
   "author": "AIME",
   "license": "ISC",
   "bugs": {
