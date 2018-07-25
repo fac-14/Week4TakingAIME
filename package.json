@@ -1,0 +1,31 @@
+{
+  "name": "markdown-emoji-search",
+  "version": "1.0.0",
+  "description": "emoji search with autocomplete",
+  "main": "logic.js",
+  "scripts": {
+    "test": "nodemon ./logic.test.js | tap-spec",
+    "start": "node src/server'.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-14/Week4TakingAIME.git"
+  },
+  "keywords": [
+    "emoji",
+    "search",
+    "autocomplete"
+  ],
+  "author": "AIME",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac-14/Week4TakingAIME/issues"
+  },
+  "homepage": "https://github.com/fac-14/Week4TakingAIME#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "nyc": "^12.0.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
