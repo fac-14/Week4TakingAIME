@@ -1,3 +1,38 @@
 body {
   background-color: rgba(127, 255, 212, 1);
+  margin: 0;
+}
+
+#grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 15% 70% 15%;
+  border-style: solid;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+#title {
+  display: grid;
+  border-style: solid;
+  grid-column: 2 / 3;
+  text-align: center;
+}
+
+.searchbox {
+  display: grid;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  border-style: solid;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  width: 30vw;
+}
+
+#result {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  border-style: solid;
 }
