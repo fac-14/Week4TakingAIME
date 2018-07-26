@@ -40,5 +40,10 @@ const handlePublic = (request, response, url) => {
   })
 }
 
+  const handleAutoCompleteQuery = (request, response, url) => {
+    response.writeHead(200, "Content-Type: text/html");
+    response.end(JSON.stringify({'name': 'emily', 'age': '104'}));
+  }
 
-module.exports = { handleHomeRoute, handlePublic };
+
+module.exports = { handleHomeRoute, handlePublic, handleAutoCompleteQuery };
