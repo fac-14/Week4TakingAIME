@@ -43,6 +43,7 @@ const handlePublic = (request, response, url) => {
 
   const handleAutoCompleteQuery = (request, response, url) => {
     var query = url.split('?q=')[1];
+    query = query.split('&')[0];
     var resultArr = [];
     var searchEmoji = function (query) {
       emojiObj.forEach((emoji) => {
@@ -61,7 +62,25 @@ const handlePublic = (request, response, url) => {
     var result = searchEmoji(query);
     response.writeHead(200, "Content-Type: text/html");
     response.end(JSON.stringify(result));
-  }
+  };
+
+  const handleSubmit = (request, response, url) => {
+    var query = url.split('?q=')[1];
+    query = query.split('&')[0];
+    
+    var resultArr = [];
+    for (var i = 0; i < emojiObj.length; i++) {
+      console.log(emojiObj[i].name.indexOf(query));
+      if (emojiObj[i].name.indexOf(query) !== -1) {
+        resultArr.push(emojiObj[i]);
+        break;
+      }
+    }
+    var result = resultArr;
+    console.log(resultArr);
+    response.writeHead(200, "Content-Type: text/html");
+    response.end(JSON.stringify(result));
+  };
 
 
-module.exports = { handleHomeRoute, handlePublic, handleAutoCompleteQuery };
+module.exports = { handleHomeRoute, handlePublic, handleAutoCompleteQuery, handleSubmit };
