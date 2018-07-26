@@ -1,6 +1,7 @@
 
 [
   {
+    "emoji": "👍",
     "name": "thumbs up",
     "markdown": [":+1:", ":thumbsup:"],
     "unicode": "yes",
@@ -8,6 +9,7 @@
     "sentiments": ["good"]
   },
   {
+    "emoji": "👎",
     "name": "thumbs down",
     "markdown": [":-1:", ":thumbsdown:"],
     "unicode": "yes",
@@ -15,6 +17,7 @@
     "sentiments": ["bad"]
   },
   {
+    "emoji": "👌",
     "name": "ok",
     "markdown": [":ok_hand:"],
     "unicode": "yes",
@@ -22,6 +25,7 @@
     "sentiments": ["good"]
   },
   {
+    "emoji": "👊",
     "name": "punch",
     "markdown": [":punch:", ":facepunch:"],
     "unicode": "yes",
@@ -29,6 +33,7 @@
     "sentiments": ["bad"]
   },
   {
+    "emoji": "✊",
     "name": "fist",
     "markdown": [":fist:"],
     "unicode": "yes",
@@ -36,6 +41,7 @@
     "sentiments": []
   },
   {
+    "emoji": "👋",
     "name": "wave",
     "markdown": [":wave:"],
     "unicode": "yes",
@@ -43,6 +49,7 @@
     "sentiments": ["good"]
   },
   {
+    "emoji": "✋",
     "name": "hand",
     "markdown": [":hand:", ":raised_hand:"],
     "unicode": "yes",
@@ -50,6 +57,7 @@
     "sentiments": []
   },
   {
+    "emoji": "✌️",
     "name": "peace",
     "markdown": [":v:"],
     "unicode": "yes",
@@ -57,6 +65,7 @@
     "sentiments": ["good"]
   },
   {
+    "emoji": "👐",
     "name": "open hands",
     "markdown": [":open_hands:"],
     "unicode": "yes",
@@ -64,6 +73,7 @@
     "sentiments": []
   },
   {
+    "emoji": "☝️",
     "name": "point up",
     "markdown": [":point_up:"],
     "unicode": "yes",
@@ -71,6 +81,7 @@
     "sentiments": []
   },
   {
+    "emoji": "👈",
     "name": "point left",
     "markdown": [":point_left:"],
     "unicode": "yes",
@@ -78,6 +89,7 @@
     "sentiments": []
   },
   {
+    "emoji": "👇",
     "name": "point down",
     "markdown": [":point_down:"],
     "unicode": "yes",
@@ -85,6 +97,7 @@
     "sentiments": []
   },
   {
+    "emoji": "👉",
     "name": "point right",
     "markdown": [":point_right:"],
     "unicode": "yes",
@@ -92,13 +105,7 @@
     "sentiments": []
   },
   {
-    "name": "point up 2",
-    "markdown": [":point_up_2:"],
-    "unicode": "yes",
-    "aliases": [],
-    "sentiments": []
-  },
-  {
+    "emoji": "✋",
     "name": "raised hands",
     "markdown": [":raised_hands:"],
     "unicode": "yes",
@@ -106,6 +113,7 @@
     "sentiments": ["good"]
   },
   {
+    "emoji": "🙏",
     "name": "pray",
     "markdown": [":pray:"],
     "unicode": "yes",
@@ -113,6 +121,7 @@
     "sentiments": []
   },
   {
+    "emoji": "👏",
     "name": "clap",
     "markdown": [":clap:"],
     "unicode": "yes",
@@ -120,6 +129,7 @@
     "sentiments": ["good"]
   },
   {
+    "emoji": "💪",
     "name": "muscle",
     "markdown": [":muscle:"],
     "unicode": "yes",
@@ -127,6 +137,7 @@
     "sentiments": []
   },
   {
+    "emoji": "🤘",
     "name": "metal",
     "markdown": [":metal:"],
     "unicode": "yes",
@@ -134,6 +145,7 @@
     "sentiments": []
   },
   {
+    "emoji": "🖕",
     "name": "f**k you",
     "markdown": [":fu:"],
     "unicode": "yes",
