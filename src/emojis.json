@@ -1,143 +1,143 @@
-// EMOJI OBJECT EXTRAORDINAIRE
+
 [
   {
-    name: "thumbs up",
-    markdown: [":+1:", ":thumbsup:"],
-    unicode: yes,
-    aliases: [],
-    sentiments: ["good"]
+    "name": "thumbs up",
+    "markdown": [":+1:", ":thumbsup:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": ["good"]
   },
   {
-    name: "thumbs down",
-    markdown: [":-1:", ":thumbsdown:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: ["bad"]
+    "name": "thumbs down",
+    "markdown": [":-1:", ":thumbsdown:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": ["bad"]
   },
   {
-    name: "ok",
-    markdown: [":ok_hand:"],
-    unicode: "yes",
-    aliases: ["okay", "all good"],
-    sentiments: ["good"]
+    "name": "ok",
+    "markdown": [":ok_hand:"],
+    "unicode": "yes",
+    "aliases": ["okay", "all good"],
+    "sentiments": ["good"]
   },
   {
-    name: "punch",
-    markdown: [":punch:", ":facepunch:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: ["bad"]
+    "name": "punch",
+    "markdown": [":punch:", ":facepunch:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": ["bad"]
   },
   {
-    name: "fist",
-    markdown: [":fist:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: []
+    "name": "fist",
+    "markdown": [":fist:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
   },
   {
-    name: "wave",
-    markdown: [":wave:"],
-    unicode: "yes",
-    aliases: ["hey", "hi"],
-    sentiments: ["good"]
+    "name": "wave",
+    "markdown": [":wave:"],
+    "unicode": "yes",
+    "aliases": ["hey", "hi"],
+    "sentiments": ["good"]
   },
   {
-    name: "hand",
-    markdown: [":hand:", ":raised_hand:"],
-    unicode: "yes",
-    aliases: ["raised hand"],
-    sentiments: []
+    "name": "hand",
+    "markdown": [":hand:", ":raised_hand:"],
+    "unicode": "yes",
+    "aliases": ["raised hand"],
+    "sentiments": []
   },
   {
-    name: "peace",
-    markdown: [":v:"],
-    unicode: "yes",
-    aliases: ["v"],
-    sentiments: ["good"]
+    "name": "peace",
+    "markdown": [":v:"],
+    "unicode": "yes",
+    "aliases": ["v"],
+    "sentiments": ["good"]
   },
   {
-    name: "open hands",
-    markdown: [":open_hands:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: []
+    "name": "open hands",
+    "markdown": [":open_hands:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
   },
   {
-    name: "point up",
-    markdown: [":point_up:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: []
+    "name": "point up",
+    "markdown": [":point_up:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
   },
   {
-    name: "point left",
-    markdown: [":point_left:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: []
+    "name": "point left",
+    "markdown": [":point_left:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
   },
   {
-    name: "point down",
-    markdown: [":point_down:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: []
+    "name": "point down",
+    "markdown": [":point_down:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
   },
   {
-    name: "point right",
-    markdown: [":point_right:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: []
+    "name": "point right",
+    "markdown": [":point_right:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
   },
   {
-    name: "point up 2",
-    markdown: [":point_up_2:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: []
+    "name": "point up 2",
+    "markdown": [":point_up_2:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
   },
   {
-    name: "raised hands",
-    markdown: [":raised_hands:"],
-    unicode: "yes",
-    aliases: ["praise"],
-    sentiments: ["good"]
+    "name": "raised hands",
+    "markdown": [":raised_hands:"],
+    "unicode": "yes",
+    "aliases": ["praise"],
+    "sentiments": ["good"]
   },
   {
-    name: "pray",
-    markdown: [":pray:"],
-    unicode: "yes",
-    aliases: ["thanks", "please", "thank you"],
-    sentiments: []
+    "name": "pray",
+    "markdown": [":pray:"],
+    "unicode": "yes",
+    "aliases": ["thanks", "please", "thank you"],
+    "sentiments": []
   },
   {
-    name: "clap",
-    markdown: [":clap:"],
-    unicode: "yes",
-    aliases: [],
-    sentiments: ["good"]
+    "name": "clap",
+    "markdown": [":clap:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": ["good"]
   },
   {
-    name: "muscle",
-    markdown: [":muscle:"],
-    unicode: "yes",
-    aliases: ["strong", "bicep", "flex"],
-    sentiments: []
+    "name": "muscle",
+    "markdown": [":muscle:"],
+    "unicode": "yes",
+    "aliases": ["strong", "bicep", "flex"],
+    "sentiments": []
   },
   {
-    name: "metal",
-    markdown: [":metal:"],
-    unicode: "yes",
-    aliases: ["rock on"],
-    sentiments: []
+    "name": "metal",
+    "markdown": [":metal:"],
+    "unicode": "yes",
+    "aliases": ["rock on"],
+    "sentiments": []
   },
   {
-    name: "f**k you",
-    markdown: [":fu:"],
-    unicode: "yes",
-    aliases: ["middle finger", "fu", "bird"],
-    sentiments: []
+    "name": "f**k you",
+    "markdown": [":fu:"],
+    "unicode": "yes",
+    "aliases": ["middle finger", "fu", "bird"],
+    "sentiments": []
   }
 ]

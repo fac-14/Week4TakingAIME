@@ -8,10 +8,13 @@
   searchBox.addEventListener('input', function() {
     textInput = searchBox.value;
     resultDiv.textContent = textInput;
+    apiRequest(textInput);
   })
 
+  var apiRequest = function(query) {
   var xhr = new XMLHttpRequest();
-  var url = 'https://api.tfl.gov.uk/line/mode/tube/status';
+  var url = '//localhost:8070/?q=' + query;
+  console.log(url);
   xhr.onreadystatechange = function() {
     if (xhr.readyState == 4 && xhr.status == 200) {
       var data = JSON.parse(xhr.responseText);
@@ -20,4 +23,5 @@
     }
     xhr.open('GET', url, true);
     xhr.send();
+  }
 // })();

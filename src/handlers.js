@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const emojiObj = require('./emojis.json');
 
 const handleHomeRoute = (request, response) => {
   fs.readFile(path.join(__dirname, "..", "public", "index.html"), (error, file) => {
@@ -40,5 +41,27 @@ const handlePublic = (request, response, url) => {
   })
 }
 
+  const handleAutoCompleteQuery = (request, response, url) => {
+    var query = url.split('?q=')[1];
+    var resultArr = [];
+    var searchEmoji = function (query) {
+      emojiObj.forEach((emoji) => {
+        if (emoji.name.indexOf(query) !== -1) {
+          resultArr.push(emoji.name);
+        }
+      });
+      if (resultArr.length > 5) {
+        return resultArr.slice(0, 5);
+      }
+      else {
+        return resultArr;
+      }
+      
+    };
+    var result = searchEmoji(query);
+    response.writeHead(200, "Content-Type: text/html");
+    response.end(JSON.stringify(result));
+  }
 
-module.exports = { handleHomeRoute, handlePublic };
+
+module.exports = { handleHomeRoute, handlePublic, handleAutoCompleteQuery };
