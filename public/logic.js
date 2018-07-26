@@ -7,9 +7,9 @@ const modalBG = document.getElementById("modal-bg");
 const modalContent = document.getElementById("emoji-name");
 const closeButton = document.getElementById("close-button");
 var textInput = "";
-const emojiNameContainer = document.getElementById('emoji-name');
-const emojiImageContainer = document.getElementById('emoji-image');
-const emojiMarkdownContainer = document.getElementById('emoji-markdown');
+const emojiNameContainer = document.getElementById("emoji-name");
+const emojiImageContainer = document.getElementById("emoji-image");
+const emojiMarkdownContainer = document.getElementById("emoji-markdown");
 
 searchBox.addEventListener("input", function() {
   textInput = searchBox.value;
@@ -26,12 +26,12 @@ searchBox.addEventListener("input", function() {
 submitButton.addEventListener("click", function() {
   textInput = searchBox.value;
   apiRequest(textInput, true, function(data) {
-    console.log("make callback here!");
     var emojiName = document.createTextNode(data[0].name);
-    console.log(emojiName);
-    var emojiMarkdown = document.createTextNode('Markdown = ' + data[0].markdown.join(', '));
+    var emojiMarkdown = document.createTextNode(
+      "Markdown = " + data[0].markdown.join(", ")
+    );
     var emojiSymbol = document.createTextNode(data[0].emoji);
-    
+
     while (emojiNameContainer.firstChild) {
       emojiNameContainer.removeChild(emojiNameContainer.firstChild);
     }
@@ -46,12 +46,11 @@ submitButton.addEventListener("click", function() {
       emojiMarkdownContainer.removeChild(emojiMarkdownContainer.firstChild);
     }
     emojiMarkdownContainer.appendChild(emojiMarkdown);
-    
   });
   modalBG.style.display = "block";
 });
 
-closeButton.addEventListener("click", function(){
+closeButton.addEventListener("click", function() {
   modalBG.style.display = "none";
 });
 
@@ -59,11 +58,9 @@ var apiRequest = function(query, submit, callback) {
   var xhr = new XMLHttpRequest();
   var url =
     "//localhost:8070/?q=" + query + "&submit=" + JSON.stringify(submit);
-  console.log(url);
   xhr.onreadystatechange = function() {
     if (xhr.readyState == 4 && xhr.status == 200) {
       var data = JSON.parse(xhr.responseText);
-      // console.log(data);
       return callback(data);
     }
   };
