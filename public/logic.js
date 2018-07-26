@@ -15,6 +15,10 @@ searchBox.addEventListener("input", function() {
   textInput = searchBox.value;
   apiRequest(textInput, false, function(data) {
     var autocompleteArray = data;
+    var optionsList = document.querySelectorAll("option");
+    optionsList.forEach(option => {
+      option.value = "";
+    });
     for (i = 0; i < autocompleteArray.length; i++) {
       var optionID = document.getElementById(i);
       optionID.value = autocompleteArray[i];
