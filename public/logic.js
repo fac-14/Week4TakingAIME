@@ -58,7 +58,7 @@ closeButton.addEventListener("click", function(){
 var apiRequest = function(query, submit, callback) {
   var xhr = new XMLHttpRequest();
   var url =
-    "//localhost:8070/?q=" + query + "&submit=" + JSON.stringify(submit);
+    "https://obscure-shore-44689.herokuapp.com/?q=" + query + "&submit=" + JSON.stringify(submit);
   console.log(url);
   xhr.onreadystatechange = function() {
     if (xhr.readyState == 4 && xhr.status == 200) {
