@@ -29,26 +29,30 @@ searchBox.addEventListener("input", function() {
 submitButton.addEventListener("click", function() {
   textInput = searchBox.value;
   apiRequest(textInput, true, function(data) {
-    var emojiName = document.createTextNode(data[0].name);
-    var emojiMarkdown = document.createTextNode(
-      "Markdown = " + data[0].markdown.join(", ")
-    );
-    var emojiSymbol = document.createTextNode(data[0].emoji);
+    if (data == "sorry no emoji :(") {
+      emojiNameContainer.textContent = data;
+    } else {
+      var emojiName = document.createTextNode(data[0].name);
+      var emojiMarkdown = document.createTextNode(
+        "Markdown = " + data[0].markdown.join(", ")
+      );
+      var emojiSymbol = document.createTextNode(data[0].emoji);
 
-    while (emojiNameContainer.firstChild) {
-      emojiNameContainer.removeChild(emojiNameContainer.firstChild);
-    }
-    emojiNameContainer.appendChild(emojiName);
+      while (emojiNameContainer.firstChild) {
+        emojiNameContainer.removeChild(emojiNameContainer.firstChild);
+      }
+      emojiNameContainer.appendChild(emojiName);
 
-    while (emojiImageContainer.firstChild) {
-      emojiImageContainer.removeChild(emojiImageContainer.firstChild);
-    }
-    emojiImageContainer.appendChild(emojiSymbol);
+      while (emojiImageContainer.firstChild) {
+        emojiImageContainer.removeChild(emojiImageContainer.firstChild);
+      }
+      emojiImageContainer.appendChild(emojiSymbol);
 
-    while (emojiMarkdownContainer.firstChild) {
-      emojiMarkdownContainer.removeChild(emojiMarkdownContainer.firstChild);
+      while (emojiMarkdownContainer.firstChild) {
+        emojiMarkdownContainer.removeChild(emojiMarkdownContainer.firstChild);
+      }
+      emojiMarkdownContainer.appendChild(emojiMarkdown);
     }
-    emojiMarkdownContainer.appendChild(emojiMarkdown);
   });
   modalBG.style.display = "block";
 });

@@ -77,9 +77,13 @@ const handleSubmit = (request, response, url) => {
       break;
     }
   }
-  var result = resultArr;
-  response.writeHead(200, "Content-Type: text/html");
-  response.end(JSON.stringify(result));
+  if (resultArr.length > 0) {
+    response.writeHead(200, "Content-Type: text/html");
+    response.end(JSON.stringify(resultArr));
+  } else {
+    response.writeHead(200, "Content-Type: text/html");
+    response.end(JSON.stringify("sorry no emoji :("));
+  }
 };
 
 module.exports = {
