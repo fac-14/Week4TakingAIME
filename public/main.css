@@ -21,6 +21,7 @@ body {
 }
 
 .searchbox {
+  position: relative;
   display: grid;
   text-align: center;
   justify-self: center;
@@ -35,4 +36,13 @@ body {
   grid-row: 3 / 4;
   grid-column: 2 / 3;
   border-style: solid;
+}
+
+.autocomplete-list{
+  position: absolute;
+  z-index: 99;
+  border: 1px solid black;
+  top: 100%;
+  left: 0;
+  right: 0;
 }

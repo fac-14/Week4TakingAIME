@@ -10,6 +10,16 @@
     resultDiv.textContent = textInput;
   })
 
+  searchBox.addEventListener('input', function() {
+    var autocompleteDiv = document.createElement('div');
+    autocompleteDiv.setAttribute('id', this.id = 'autocomplete-list');
+    autocompleteDiv.setAttribute('class', 'autocomplete-items');
+    this.paerentNode.appendChild('autocomplete-items');
+    textInput = searchBox.value;
+    autocompleteDiv.innerText = textInput;
+  })
+
+
   var xhr = new XMLHttpRequest();
   var url = 'https://api.tfl.gov.uk/line/mode/tube/status';
   xhr.onreadystatechange = function() {
