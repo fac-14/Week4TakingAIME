@@ -39,16 +39,6 @@ h1 {
   grid-column: 2 / 3;
   width: 50vw;
 }
-/* 
-#result {
-  display: grid;
-  text-align: center;
-  justify-self: center;
-  align-self: center;
-  grid-row: 3 / 4;
-  grid-column: 2 / 3;
-  /* border-style: solid; */
-/* } */
 
 input[type="text"] {
   display: grid;
@@ -121,11 +111,7 @@ button {
   text-align: center;
   font-family: "Comfortaa", cursive;
   font-weight: 400;
-<<<<<<< HEAD
-  font-size: 5rem;
-=======
   font-size: 10rem;
->>>>>>> master
 }
 
 #emoji-markdown {
@@ -137,15 +123,6 @@ button {
   font-size: 2.25rem;
 }
 
-/* #emoji-aliases {
-  display: grid;
-  grid-column: 2 / 3;
-  text-align: center;
-  font-family: 'Comfortaa', cursive;
-  font-weight: 700;
-  font-size: 2rem;
-} */
-
 #close-modal {
   display: grid;
   grid-column: 2 / 3;
@@ -154,10 +131,7 @@ button {
   justify-self: center;
   width: 30%;
 }
-<<<<<<< HEAD
 
 #close-modal > button {
   font-size: 2rem;
 }
-=======
->>>>>>> master
