@@ -7,10 +7,13 @@ const modalBG = document.getElementById("modal-bg");
 const modalContent = document.getElementById("emoji-name");
 const closeButton = document.getElementById("close-button");
 var textInput = "";
+const emojiNameContainer = document.getElementById('emoji-name');
+const emojiImageContainer = document.getElementById('emoji-image');
+const emojiMarkdownContainer = document.getElementById('emoji-markdown');
 
 searchBox.addEventListener("input", function() {
   textInput = searchBox.value;
-  modalContent.textContent = textInput;
+  // resultDiv.textContent = textInput;
   apiRequest(textInput, false, function(data) {
     var autocompleteArray = data;
     for (i = 0; i < autocompleteArray.length; i++) {
@@ -22,8 +25,28 @@ searchBox.addEventListener("input", function() {
 
 submitButton.addEventListener("click", function() {
   textInput = searchBox.value;
-  apiRequest(textInput, true, function() {
+  apiRequest(textInput, true, function(data) {
     console.log("make callback here!");
+    var emojiName = document.createTextNode(data[0].name);
+    console.log(emojiName);
+    var emojiMarkdown = document.createTextNode('Markdown = ' + data[0].markdown.join(', '));
+    var emojiSymbol = document.createTextNode(data[0].emoji);
+    
+    while (emojiNameContainer.firstChild) {
+      emojiNameContainer.removeChild(emojiNameContainer.firstChild);
+    }
+    emojiNameContainer.appendChild(emojiName);
+
+    while (emojiImageContainer.firstChild) {
+      emojiImageContainer.removeChild(emojiImageContainer.firstChild);
+    }
+    emojiImageContainer.appendChild(emojiSymbol);
+
+    while (emojiMarkdownContainer.firstChild) {
+      emojiMarkdownContainer.removeChild(emojiMarkdownContainer.firstChild);
+    }
+    emojiMarkdownContainer.appendChild(emojiMarkdown);
+    
   });
   modalBG.style.display = "block";
 });
@@ -40,7 +63,7 @@ var apiRequest = function(query, submit, callback) {
   xhr.onreadystatechange = function() {
     if (xhr.readyState == 4 && xhr.status == 200) {
       var data = JSON.parse(xhr.responseText);
-      console.log(data);
+      // console.log(data);
       return callback(data);
     }
   };
