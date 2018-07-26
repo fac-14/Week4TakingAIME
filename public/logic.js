@@ -3,25 +3,37 @@
   const submitButton = document.getElementById("submit-button");
   const searchBox = document.getElementById("input");
   const resultDiv = document.getElementById("result");
-  // console.log(searchBox);
   var textInput = '';
+
   searchBox.addEventListener('input', function() {
     textInput = searchBox.value;
     resultDiv.textContent = textInput;
     apiRequest(textInput);
+    insertACIntoDOM();
   })
 
-  var apiRequest = function(query) {
-  var xhr = new XMLHttpRequest();
-  var url = '//localhost:8070/?q=' + query;
-  console.log(url);
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState == 4 && xhr.status == 200) {
-      var data = JSON.parse(xhr.responseText);
-      console.log(data);
-    }
+  var apiRequest = function(query, callback) {
+    var xhr = new XMLHttpRequest();
+    var url = '//localhost:8070/?q=' + query;
+    console.log(url);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == 4 && xhr.status == 200) {
+        var data = JSON.parse(xhr.responseText);
+        console.log(data);
+        return callback(data);
+      }
     }
     xhr.open('GET', url, true);
     xhr.send();
+  }
+
+  var insertACIntoDOM = function(domData) {
+    apiRequest(textInput, function(data){
+      var autocompleteArray = data;
+      for (i = 0; i < autocompleteArray.length; i++) {
+        var optionID = document.getElementById(i);
+        optionID.value = autocompleteArray[i];
+      }
+    });
   }
 // })();
