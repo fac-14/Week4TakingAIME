@@ -67,7 +67,6 @@ const handlePublic = (request, response, url) => {
   const handleSubmit = (request, response, url) => {
     var query = url.split('?q=')[1];
     query = query.split('&')[0];
-    
     var resultArr = [];
     for (var i = 0; i < emojiObj.length; i++) {
       console.log(emojiObj[i].name.indexOf(query));
