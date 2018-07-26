@@ -11,7 +11,14 @@
   <div id="grid">
     <h1 id="title">Emoji Search</h1>
     <form id="form" class="searchbox">
-      <input type="text" id="input" name="q" placeholder="Look for an emoji!" required>
+      <input autocomplete="off" list="autocomplete" type="text" id="input" name="q" placeholder="Look for an emoji!" required>
+      <datalist id="autocomplete">
+        <option id= "option-1" value=""></option>
+        <option id= "option-2" value=""></option>
+        <option id= "option-3" value=""></option>
+        <option id= "option-4" value=""></option>
+        <option id= "option-5" value=""></option>
+      </datalist>
       <input type="submit" id="submit-button" value="search">
     </form>
     <div id="result">
