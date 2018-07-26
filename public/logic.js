@@ -3,11 +3,14 @@ const form = document.getElementById("form");
 const submitButton = document.getElementById("submit-button");
 const searchBox = document.getElementById("input");
 const resultDiv = document.getElementById("result");
+const modalBG = document.getElementById("modal-bg");
+const modalContent = document.getElementById("emoji-name");
+const closeButton = document.getElementById("close-button");
 var textInput = "";
 
 searchBox.addEventListener("input", function() {
   textInput = searchBox.value;
-  resultDiv.textContent = textInput;
+  modalContent.textContent = textInput;
   apiRequest(textInput, false, function(data) {
     var autocompleteArray = data;
     for (i = 0; i < autocompleteArray.length; i++) {
@@ -22,6 +25,11 @@ submitButton.addEventListener("click", function() {
   apiRequest(textInput, true, function() {
     console.log("make callback here!");
   });
+  modalBG.style.display = "block";
+});
+
+closeButton.addEventListener("click", function(){
+  modalBG.style.display = "none";
 });
 
 var apiRequest = function(query, submit, callback) {
