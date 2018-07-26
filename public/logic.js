@@ -15,12 +15,13 @@ searchBox.addEventListener("input", function() {
       optionID.value = autocompleteArray[i];
     }
   });
-  // insertACIntoDOM();
 });
 
 submitButton.addEventListener("click", function() {
   textInput = searchBox.value;
-  apiRequest(textInput, true);
+  apiRequest(textInput, true, function() {
+    console.log("make callback here!");
+  });
 });
 
 var apiRequest = function(query, submit, callback) {
@@ -38,14 +39,3 @@ var apiRequest = function(query, submit, callback) {
   xhr.open("GET", url, true);
   xhr.send();
 };
-
-// var insertACIntoDOM = function(domData) {
-//   apiRequest(textInput, function(data){
-//     var autocompleteArray = data;
-//     for (i = 0; i < autocompleteArray.length; i++) {
-//       var optionID = document.getElementById(i);
-//       optionID.value = autocompleteArray[i];
-//     }
-//   });
-// }
-// })();
