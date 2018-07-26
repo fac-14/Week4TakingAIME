@@ -3,6 +3,9 @@ const form = document.getElementById("form");
 const submitButton = document.getElementById("submit-button");
 const searchBox = document.getElementById("input");
 const resultDiv = document.getElementById("result");
+const modalBG = document.getElementById("modal-bg");
+const modalContent = document.getElementById("emoji-name");
+const closeButton = document.getElementById("close-button");
 var textInput = "";
 const emojiNameContainer = document.getElementById('emoji-name');
 const emojiImageContainer = document.getElementById('emoji-image');
@@ -45,6 +48,11 @@ submitButton.addEventListener("click", function() {
     emojiMarkdownContainer.appendChild(emojiMarkdown);
     
   });
+  modalBG.style.display = "block";
+});
+
+closeButton.addEventListener("click", function(){
+  modalBG.style.display = "none";
 });
 
 var apiRequest = function(query, submit, callback) {

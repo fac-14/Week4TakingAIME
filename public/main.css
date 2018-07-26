@@ -3,20 +3,20 @@ body {
   margin: 0;
   font-family: 'Comfortaa', cursive;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
 }
 
 #grid {
   display: grid;
+  z-index: 0;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: 15% 70% 15%;
-  /* border-style: solid; */
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
@@ -37,9 +37,9 @@ h1 {
   /* border-style: solid; */
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  width: 30vw;
+  width: 50vw;
 }
-
+/* 
 #result {
   display: grid;
   text-align: center;
@@ -48,7 +48,7 @@ h1 {
   grid-row: 3 / 4;
   grid-column: 2 / 3;
   /* border-style: solid; */
-}
+/* } */ 
 
 input[type=text] {
   display: grid;
@@ -65,12 +65,12 @@ input[type=text] {
   margin: 10px 0px;
 }
 
-input[type=submit] {
+button {
   display: grid;
   text-align: center;
   align-self: center;
   background-color: rgba(255, 103, 166);
-  font-size: 1.5rem;
+  font-size: 2rem;
   border-radius: 4px;
   font-family: 'Comfortaa', cursive;
   font-weight: 400;
@@ -78,4 +78,75 @@ input[type=submit] {
   border: 2px black solid;
   padding: 3% 3%;
   margin: 10px 0px;
+}
+
+#modal-bg {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#modal-content {
+  background-color: rgba(62, 255, 191, 1.0);
+  border-radius: 4px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  width: 50%;
+  height: 80%;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 15% 70% 15%;
+}
+
+#emoji-name {
+  display: grid;
+  grid-column: 2 / 3;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#emoji-image {
+  display: grid;
+  grid-column: 2 / 3;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+#emoji-markdown {
+  display: grid;
+  grid-column: 2 / 3;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+/* #emoji-aliases {
+  display: grid;
+  grid-column: 2 / 3;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+} */
+
+#close-modal {
+  display: grid;
+  grid-column: 2 / 3;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  width: 30%;
 }
