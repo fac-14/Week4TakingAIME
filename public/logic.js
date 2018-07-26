@@ -8,20 +8,25 @@
   searchBox.addEventListener('input', function() {
     textInput = searchBox.value;
     resultDiv.textContent = textInput;
-    apiRequest(textInput);
+    apiRequest(textInput, false);
     insertACIntoDOM();
   })
 
-  var apiRequest = function(query, callback) {
-    var xhr = new XMLHttpRequest();
-    var url = '//localhost:8070/?q=' + query;
-    console.log(url);
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState == 4 && xhr.status == 200) {
-        var data = JSON.parse(xhr.responseText);
-        console.log(data);
-        return callback(data);
-      }
+  submitButton.addEventListener('click', function() {
+    textInput = searchBox.value;
+    apiRequest(textInput, true);
+  })
+
+  var apiRequest = function(query, submit, callback) {
+  var xhr = new XMLHttpRequest();
+  var url = '//localhost:8070/?q=' + query + '&submit=' + JSON.stringify(submit);
+  console.log(url);
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      var data = JSON.parse(xhr.responseText);
+      console.log(data);
+      return callback(data);
+    }
     }
     xhr.open('GET', url, true);
     xhr.send();
