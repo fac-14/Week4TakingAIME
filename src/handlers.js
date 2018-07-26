@@ -50,7 +50,13 @@ const handlePublic = (request, response, url) => {
           resultArr.push(emoji.name);
         }
       });
-      return resultArr;
+      if (resultArr.length > 5) {
+        return resultArr.slice(0, 5);
+      }
+      else {
+        return resultArr;
+      }
+      
     };
     var result = searchEmoji(query);
     response.writeHead(200, "Content-Type: text/html");
