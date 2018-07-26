@@ -13,7 +13,6 @@ const emojiMarkdownContainer = document.getElementById("emoji-markdown");
 
 searchBox.addEventListener("input", function() {
   textInput = searchBox.value;
-  // resultDiv.textContent = textInput;
   apiRequest(textInput, false, function(data) {
     var autocompleteArray = data;
     for (i = 0; i < autocompleteArray.length; i++) {
@@ -55,6 +54,7 @@ closeButton.addEventListener("click", function() {
 });
 
 var apiRequest = function(query, submit, callback) {
+  query = query.split(" ").join("+");
   var xhr = new XMLHttpRequest();
   var url =
     "//localhost:8070/?q=" + query + "&submit=" + JSON.stringify(submit);

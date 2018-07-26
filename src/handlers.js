@@ -67,6 +67,9 @@ const handleAutoCompleteQuery = (request, response, url) => {
 const handleSubmit = (request, response, url) => {
   var query = url.split("?q=")[1];
   query = query.split("&")[0];
+  if (query.indexOf("+") !== -1) {
+    query = query.split("+").join(" ");
+  }
   var resultArr = [];
   for (var i = 0; i < emojiObj.length; i++) {
     if (emojiObj[i].name.indexOf(query) !== -1) {
