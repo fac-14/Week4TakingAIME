@@ -4,7 +4,6 @@ const submitButton = document.getElementById("submit-button");
 const searchBox = document.getElementById("input");
 const resultDiv = document.getElementById("result");
 const modalBG = document.getElementById("modal-bg");
-const modalContent = document.getElementById("emoji-name");
 const closeButton = document.getElementById("close-button");
 var textInput = "";
 const emojiNameContainer = document.getElementById("emoji-name");
