@@ -1,15 +1,15 @@
 // (function() {
-const form = document.getElementById("form");
-const submitButton = document.getElementById("submit-button");
-const searchBox = document.getElementById("input");
-const resultDiv = document.getElementById("result");
-const modalBG = document.getElementById("modal-bg");
-const modalContent = document.getElementById("emoji-name");
-const closeButton = document.getElementById("close-button");
+var form = document.getElementById("form");
+var submitButton = document.getElementById("submit-button");
+var searchBox = document.getElementById("input");
+var resultDiv = document.getElementById("result");
+var modalBG = document.getElementById("modal-bg");
+var modalContent = document.getElementById("emoji-name");
+var closeButton = document.getElementById("close-button");
 var textInput = "";
-const emojiNameContainer = document.getElementById("emoji-name");
-const emojiImageContainer = document.getElementById("emoji-image");
-const emojiMarkdownContainer = document.getElementById("emoji-markdown");
+var emojiNameContainer = document.getElementById("emoji-name");
+var emojiImageContainer = document.getElementById("emoji-image");
+var emojiMarkdownContainer = document.getElementById("emoji-markdown");
 
 searchBox.addEventListener("input", function() {
   var previousInput = '';
@@ -26,7 +26,7 @@ searchBox.addEventListener("input", function() {
     apiRequest(searchInput, false, function(data) {
     var optionsList = document.querySelectorAll("option");
     //clears option list
-    optionsList.forEach(option => {
+    optionsList.forEach(function(option) {
       option.value = "";
     });
     //populates options list
