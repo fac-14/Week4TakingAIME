@@ -32,6 +32,7 @@ submitButton.addEventListener("click", function() {
     if (data == "sorry no emoji :(") {
       emojiNameContainer.textContent = data;
     } else {
+      //display final emoji for user
       var emojiName = document.createTextNode(data[0].name);
       var emojiMarkdown = document.createTextNode(
         "Markdown = " + data[0].markdown.join(", ")
@@ -49,9 +50,10 @@ submitButton.addEventListener("click", function() {
       populateFinalEmoji(emojiMarkdownContainer, emojiMarkdown);
     }
   });
+  //display modal
   modalBG.style.display = "block";
 });
-
+//close modal
 closeButton.addEventListener("click", function() {
   modalBG.style.display = "none";
 });
