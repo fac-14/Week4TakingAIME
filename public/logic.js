@@ -9,6 +9,7 @@ var textInput = "";
 var emojiNameContainer = document.getElementById("emoji-name");
 var emojiImageContainer = document.getElementById("emoji-image");
 var emojiMarkdownContainer = document.getElementById("emoji-markdown");
+var emojiAlisesContainer = document.getElementById("emoji-aliases")
 var baseUrl = "https://obscure-shore-44689.herokuapp.com/";
 
 searchBox.addEventListener("input", function() {
@@ -20,7 +21,7 @@ searchBox.addEventListener("input", function() {
       if (searchInput === previousInput) {
         autocomplete(searchInput);
       }
-    }, 250); 
+    }, 250);
   }
   function autocomplete (searchInput) {
     apiRequest(searchInput, false, function(data) {
@@ -40,7 +41,10 @@ waitForInput(searchBox.value);
 });
 
 submitButton.addEventListener("click", function() {
-  apiRequest(searchBox.value, true, function(data) {
+  var searchValueWithEmoji = searchBox.value;
+  var searchValueWithoutEmoji = searchValueWithEmoji.substring(0, (searchValueWithEmoji.length-2));
+  //var searchValueWithoutEmoji = searchValueWithEmoji.substring
+  apiRequest(searchValueWithoutEmoji, true, function(data) {
     //return error message if no emoji
     if (data == "sorry no emoji :(") {
       emojiNameContainer.textContent = data;
@@ -51,6 +55,9 @@ submitButton.addEventListener("click", function() {
         "Markdown = " + data[0].markdown.join(", ")
       );
       var emojiSymbol = document.createTextNode(data[0].emoji);
+      var emojiAliases = document.createTextNode(
+        "Aliases = " + data[0].aliases.join(", ")
+      );
 
       function populateFinalEmoji (container, data) {
       while (container.firstChild) {
@@ -61,6 +68,7 @@ submitButton.addEventListener("click", function() {
       populateFinalEmoji(emojiNameContainer, emojiName);
       populateFinalEmoji(emojiImageContainer, emojiSymbol);
       populateFinalEmoji(emojiMarkdownContainer, emojiMarkdown);
+      populateFinalEmoji(emojiAlisesContainer, emojiAliases);
     }
   });
   //display modal

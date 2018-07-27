@@ -118,7 +118,7 @@ button:hover {
   text-align: center;
   font-family: "Comfortaa", cursive;
   font-weight: 400;
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 #emoji-markdown {
@@ -126,8 +126,18 @@ button:hover {
   grid-column: 2 / 3;
   text-align: center;
   font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#emoji-aliases {
+  display: grid;
+  grid-column: 2 / 3;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
   font-weight: 400;
-  font-size: 2.25rem;
+  font-size: 2rem;
+  margin: 2% 0%;
 }
 
 #close-modal {
