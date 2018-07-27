@@ -9,13 +9,13 @@ const router = (request, response) => {
   const url = request.url;
 
   if (url === "/") {
-    handleHomeRoute(request, response, url);
+    handleHomeRoute(response);
   } else if (url.indexOf("/public/") !== -1) {
-    handlePublic(request, response, url);
+    handlePublic(request, response);
   } else if (url.indexOf("&submit=true") !== -1) {
-    handleSubmit(request, response, url);
+    handleSubmit(request, response);
   } else if (url.indexOf("?q=") !== -1) {
-    handleAutoCompleteQuery(request, response, url);
+    handleAutoCompleteQuery(request, response);
   } else {
     response.writeHead(404, "Content-Type: text/html");
     response.end("<h1>404 Not Found - Beached As! 🐳 </h1>");
