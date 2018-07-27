@@ -10,6 +10,7 @@ var textInput = "";
 var emojiNameContainer = document.getElementById("emoji-name");
 var emojiImageContainer = document.getElementById("emoji-image");
 var emojiMarkdownContainer = document.getElementById("emoji-markdown");
+var baseUrl = "https://obscure-shore-44689.herokuapp.com/";
 
 searchBox.addEventListener("input", function() {
   var previousInput = '';
@@ -75,7 +76,7 @@ var apiRequest = function(query, submit, callback) {
   query = query.split(" ").join("+");
   var xhr = new XMLHttpRequest();
   var url =
-    "https://obscure-shore-44689.herokuapp.com/?q=" +
+    baseUrl + "?q=" +
     query +
     "&submit=" +
     JSON.stringify(submit);
