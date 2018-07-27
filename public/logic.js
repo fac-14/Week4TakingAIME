@@ -12,23 +12,23 @@ const emojiImageContainer = document.getElementById("emoji-image");
 const emojiMarkdownContainer = document.getElementById("emoji-markdown");
 
 searchBox.addEventListener("input", function() {
-  textInput = searchBox.value;
-  apiRequest(textInput, false, function(data) {
-    var autocompleteArray = data;
+  apiRequest(searchBox.value, false, function(data) {
     var optionsList = document.querySelectorAll("option");
+    //clears option list
     optionsList.forEach(option => {
       option.value = "";
     });
-    for (i = 0; i < autocompleteArray.length; i++) {
+    //populates options list
+    for (i = 0; i < data.length; i++) {
       var optionID = document.getElementById(i);
-      optionID.value = autocompleteArray[i];
+      optionID.value = data[i];
     }
   });
 });
 
 submitButton.addEventListener("click", function() {
-  textInput = searchBox.value;
-  apiRequest(textInput, true, function(data) {
+  apiRequest(searchBox.value, true, function(data) {
+    //return error message if no emoji
     if (data == "sorry no emoji :(") {
       emojiNameContainer.textContent = data;
     } else {
@@ -38,20 +38,15 @@ submitButton.addEventListener("click", function() {
       );
       var emojiSymbol = document.createTextNode(data[0].emoji);
 
-      while (emojiNameContainer.firstChild) {
-        emojiNameContainer.removeChild(emojiNameContainer.firstChild);
+      function populateFinalEmoji (container, data) {
+      while (container.firstChild) {
+        container.removeChild(container.firstChild);
       }
-      emojiNameContainer.appendChild(emojiName);
-
-      while (emojiImageContainer.firstChild) {
-        emojiImageContainer.removeChild(emojiImageContainer.firstChild);
+      container.appendChild(data);
       }
-      emojiImageContainer.appendChild(emojiSymbol);
-
-      while (emojiMarkdownContainer.firstChild) {
-        emojiMarkdownContainer.removeChild(emojiMarkdownContainer.firstChild);
-      }
-      emojiMarkdownContainer.appendChild(emojiMarkdown);
+      populateFinalEmoji(emojiNameContainer, emojiName);
+      populateFinalEmoji(emojiImageContainer, emojiSymbol);
+      populateFinalEmoji(emojiMarkdownContainer, emojiMarkdown);
     }
   });
   modalBG.style.display = "block";
