@@ -489,100 +489,100 @@
   },
     {
     "emoji": "😓",
-    "name": "",
+    "name": "downcast face with sweat",
     "markdown": [":sweat:"],
     "unicode": "yes",
-    "aliases": [],
+    "aliases": ["sweat", "hard work", "sorry"],
     "sentiments": []
   },
     {
     "emoji": "😪",
-    "name": "",
+    "name": "sleepy",
     "markdown": [":sleepy:"],
     "unicode": "yes",
-    "aliases": [],
+    "aliases": ["snot bubble", "side-tear"],
     "sentiments": []
   },
     {
     "emoji": "😴",
-    "name": "",
+    "name": "sleeping",
     "markdown": [":sleeping:"],
     "unicode": "yes",
-    "aliases": [],
+    "aliases": ["zzz", "snoring"],
     "sentiments": []
   },
     {
     "emoji": "🙄",
-    "name": "",
+    "name": "face with rolling eyes",
     "markdown": [":roll_eyes:"],
     "unicode": "yes",
-    "aliases": [],
+    "aliases": ["eye roll"],
     "sentiments": []
   },
     {
     "emoji": "🤔",
-    "name": "",
+    "name": "thinking",
     "markdown": [":thinking:"],
     "unicode": "yes",
-    "aliases": [],
+    "aliases": ["chin thumb", "throwing shade", "thinker"],
     "sentiments": []
   },
-    {
-    "emoji": "🤥",
-    "name": "",
-    "markdown": [":lying_face:"],
-    "unicode": "yes",
-    "aliases": [],
-    "sentiments": []
-  },
-      {
-    "emoji": "🤐",
-    "name": "",
-    "markdown": [":zipper_mouth_face:"],
-    "unicode": "yes",
-    "aliases": [],
-    "sentiments": []
-  },
-    {
-    "emoji": "🤢",
-    "name": "",
-    "markdown": [":nauseated_face:"],
-    "unicode": "yes",
-    "aliases": [],
-    "sentiments": []
-  },
-    {
-    "emoji": "🤧",
-    "name": "",
-    "markdown": [":sneezing_face:"],
-    "unicode": "yes",
-    "aliases": [],
-    "sentiments": []
-  },
-    {
-    "emoji": "😷",
-    "name": "",
-    "markdown": [":mask:"],
-    "unicode": "yes",
-    "aliases": [],
-    "sentiments": []
-  },
-    {
-    "emoji": "🤒",
-    "name": "",
-    "markdown": [":face_with_thermometer:"],
-    "unicode": "yes",
-    "aliases": [],
-    "sentiments": []
-  },
-    {
-    "emoji": "🤕",
-    "name": "",
-    "markdown": [":face_with_head_bandage:"],
-    "unicode": "yes",
-    "aliases": [],
-    "sentiments": []
-  },
+  //   {
+  //   "emoji": "🤥",
+  //   "name": "",
+  //   "markdown": [":lying_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //     {
+  //   "emoji": "🤐",
+  //   "name": "",
+  //   "markdown": [":zipper_mouth_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🤢",
+  //   "name": "",
+  //   "markdown": [":nauseated_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🤧",
+  //   "name": "",
+  //   "markdown": [":sneezing_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "😷",
+  //   "name": "",
+  //   "markdown": [":mask:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🤒",
+  //   "name": "",
+  //   "markdown": [":face_with_thermometer:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🤕",
+  //   "name": "",
+  //   "markdown": [":face_with_head_bandage:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
   //   {
   //   "emoji": "😈",
   //   "name": "",
