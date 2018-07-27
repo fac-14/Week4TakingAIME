@@ -9,7 +9,7 @@ var textInput = "";
 var emojiNameContainer = document.getElementById("emoji-name");
 var emojiImageContainer = document.getElementById("emoji-image");
 var emojiMarkdownContainer = document.getElementById("emoji-markdown");
-var baseUrl = "//localhost:8070/";
+var baseUrl = "https://obscure-shore-44689.herokuapp.com/";
 
 searchBox.addEventListener("input", function() {
   var previousInput = '';
