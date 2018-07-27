@@ -68,6 +68,14 @@ button {
   border: 2px black solid;
   padding: 3% 3%;
   margin: 10px 0px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+ background-color: #CCFF00;
+ color: #353839;
+ cursor: pointer; 
 }
 
 #modal-bg {
