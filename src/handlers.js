@@ -99,5 +99,6 @@ module.exports = {
   handleHomeRoute,
   handlePublic,
   handleAutoCompleteQuery,
-  handleSubmit
+  handleSubmit,
+  returnError
 };

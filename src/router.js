@@ -2,7 +2,8 @@ const {
   handleHomeRoute,
   handlePublic,
   handleAutoCompleteQuery,
-  handleSubmit
+  handleSubmit,
+  returnError
 } = require("./handlers");
 
 const router = (request, response) => {
