@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const emojiObj = require("./emojis.json");
 
-const handleHomeRoute = (request, response) => {
+const handleHomeRoute = (response) => {
   fs.readFile(
     path.join(__dirname, "..", "public", "index.html"),
     (error, file) => {
@@ -18,8 +18,8 @@ const handleHomeRoute = (request, response) => {
   );
 };
 
-const handlePublic = (request, response, url) => {
-  const extension = url.split(".")[1];
+const handlePublic = (request, response) => {
+  const extension = request.url.split(".")[1];
 
   const extensionType = {
     html: "text/html",
@@ -43,8 +43,8 @@ const handlePublic = (request, response, url) => {
   });
 };
 
-const handleAutoCompleteQuery = (request, response, url) => {
-  var query = url.split("?q=")[1];
+const handleAutoCompleteQuery = (request, response) => {
+  var query = request.url.split("?q=")[1];
   query = query.split("&")[0];
   var resultArr = [];
   var searchEmoji = function(query) {
@@ -64,8 +64,8 @@ const handleAutoCompleteQuery = (request, response, url) => {
   response.end(JSON.stringify(result));
 };
 
-const handleSubmit = (request, response, url) => {
-  var query = url.split("?q=")[1];
+const handleSubmit = (request, response) => {
+  var query = request.url.split("?q=")[1];
   query = query.split("&")[0];
   if (query.indexOf("+") !== -1) {
     query = query.split("+").join(" ");
