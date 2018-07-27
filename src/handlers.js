@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const emojiObj = require("./emojis.json");
+const emojiObj = require("./emojiobject.json");
 function returnError() {
   console.log(error);
   response.writeHead(500, "Content-type: text/html");

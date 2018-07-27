@@ -1,0 +1,1426 @@
+[ 
+   {
+    "emoji": "💯",
+    "name": "hundred points",
+    "markdown": [":100:"],
+    "unicode": "yes",
+    "aliases": ["one hundred", "keep it 100", "perfect score"],
+    "sentiments": []
+  },
+  {
+    "emoji": "🔢",
+    "name": "input numbers",
+    "markdown": [":1234:"],
+    "unicode": "yes",
+    "aliases": ["numbers", "1234", "numeric input"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😀",
+    "name": "grinning face",
+    "markdown": [":grinning:"],
+    "unicode": "yes",
+    "aliases": ["happy face", "smiley face"],
+    "sentiments": []
+  },
+      {
+    "emoji": "😃",
+    "name": "grinning face with big eyes",
+    "markdown": [":smiley:"],
+    "unicode": "yes",
+    "aliases": ["grinning face", "happy", "happy face", "smiley face"],
+    "sentiments": []
+  },
+      {
+    "emoji": "😄",
+    "name": "grinning face with smiling eyes",
+    "markdown": [":smile:"],
+    "unicode": "yes",
+    "aliases": ["grinning face", "happy face", "smiley face"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😁",
+    "name": "beaming face with smiling eyes",
+    "markdown": [":grin:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+  {
+    "emoji": "😆",
+    "name": "grinning squinting face",
+    "markdown": [":laughing:", ":satisfied:"],
+    "unicode": "yes",
+    "aliases": ["big grin", "XD", "LOL", "laughing"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😅",
+    "name": "grinning face with sweat",
+    "markdown": [":sweat_smile:"],
+    "unicode": "yes",
+    "aliases": ["exercise", "happy sweat"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😂",
+    "name": "face with tears of joy",
+    "markdown": [":joy:"],
+    "unicode": "yes",
+    "aliases": ["laughing", "laughing crying", "laughing tears", "LOL"],
+    "sentiments": []
+  },
+    {
+    "emoji": "🤣",
+    "name": "ROFL",
+    "markdown": [":rofl:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+    {
+    "emoji": "😊",
+    "name": "smiling face with smiling eyes",
+    "markdown": [":blush:"],
+    "unicode": "yes",
+    "aliases": ["happy face", "smile", "smiley face"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😇",
+    "name": "smiling face with halo",
+    "markdown": [":innocent:"],
+    "unicode": "yes",
+    "aliases": ["angel", "halo", "innocent"],
+    "sentiments": []
+  },
+      {
+    "emoji": "🙂",
+    "name": "slightly smiling face",
+    "markdown": [":slightly_smiling_face:"],
+    "unicode": "yes",
+    "aliases": ["the most passive aggressive emoji", "why would you use this", "fake smile", "this is fine"],
+    "sentiments": []
+  },
+      {
+    "emoji": "🙃",
+    "name": "upside-down face",
+    "markdown": [":upside_down_face:"],
+    "unicode": "yes",
+    "aliases": ["silly", "sarcasm", "this is fine"],
+    "sentiments": []
+  },
+      {
+    "emoji": "😉",
+    "name": "winking face",
+    "markdown": [":wink:"],
+    "unicode": "yes",
+    "aliases": ["wink", "winky face"],
+    "sentiments": []
+  },
+{
+    "emoji": "😌",
+    "name": "relieved face",
+    "markdown": [":relieved:"],
+    "unicode": "yes",
+    "aliases": ["content", "pleased"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😍",
+    "name": "smiling face with heart-eyes",
+    "markdown": [":heart_eyes:"],
+    "unicode": "yes",
+    "aliases": ["heart eyes", "heart face", "love it"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😘",
+    "name": "face blowing a kiss",
+    "markdown": [":kissing_heart:"],
+    "unicode": "yes",
+    "aliases": ["blow a kiss", "blowing kiss", "kissing"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😗",
+    "name": "kissing face",
+    "markdown": [":kissing:"],
+    "unicode": "yes",
+    "aliases": ["duck face", "kissy face", "whistling"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😙",
+    "name": "kissing face with smiling eyes",
+    "markdown": [":kissing_smiling_eyes:"],
+    "unicode": "yes",
+    "aliases": ["kiss face", "kissy face", "whistle", "whistling"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😚",
+    "name": "kissing face with closed eyes",
+    "markdown": [":kissing_closed_eyes:"],
+    "unicode": "yes",
+    "aliases": ["kiss face", "kissy face"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😋",
+    "name": "face savouring food",
+    "markdown": [":yum:"],
+    "unicode": "yes",
+    "aliases": ["goofy", "hungry", "yum"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😜",
+    "name": "winking face with tongue",
+    "markdown": [":stuck_out_tongue_winking_eye:"],
+    "unicode": "yes",
+    "aliases": ["crazy", "crazy face", "just kidding"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😝",
+    "name": "",
+    "markdown": [":stuck_out_tongue_closed_ey:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+{
+    "emoji": "🤑",
+    "name": "money-mouth face",
+    "markdown": [":money_mouth_face:"],
+    "unicode": "yes",
+    "aliases": ["dollar sign eyes", "rich", "money face"],
+    "sentiments": []
+  },
+  {
+    "emoji": "🤗",
+    "name": "hugging face",
+    "markdown": [":hugs:"],
+    "unicode": "yes",
+    "aliases": ["hug", "hugging", "hugs"],
+    "sentiments": []
+  },
+  {
+    "emoji": "🤓",
+    "name": "nerd face",
+    "markdown": [":nerd_face:"],
+    "unicode": "yes",
+    "aliases": ["nerd", "nerdy face"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😎",
+    "name": "smiling face with sunglasses",
+    "markdown": [":sunglasses:"],
+    "unicode": "yes",
+    "aliases": ["cool", "sunglasses", "awesome"],
+    "sentiments": []
+  },
+  {
+    "emoji": "🤡",
+    "name": "clown face",
+    "markdown": [":clown_face:"],
+    "unicode": "yes",
+    "aliases": ["gary the privacy clown", "scary clown"],
+    "sentiments": []
+  },
+  {
+    "emoji": "🤠",
+    "name": "cowboy hat face",
+    "markdown": [":cowboy_hat_face:"],
+    "unicode": "yes",
+    "aliases": ["cowboy", "howdy", "sheriff"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😏",
+    "name": "smirking face",
+    "markdown": [":smirk:"],
+    "unicode": "yes",
+    "aliases": ["flirting", "smug face", "suggestive smile"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😒",
+    "name": "unamused face",
+    "markdown": [":unamused:"],
+    "unicode": "yes",
+    "aliases": ["unamused", "meh", "dissatisfied", "unimpressed"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😞",
+    "name": "disappointed face",
+    "markdown": [":disappointed:"],
+    "unicode": "yes",
+    "aliases": ["disappointed", "sad", "sadface"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😔",
+    "name": "pensive face",
+    "markdown": [":pensive:"],
+    "unicode": "yes",
+    "aliases": ["pensive", "sad", "sadface", "sorrowful"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😟",
+    "name": "anguished face",
+    "markdown": [":worried:", ":anguished:"],
+    "unicode": "yes",
+    "aliases": ["pained face", "worried", "anguished"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😕",
+    "name": "confused",
+    "markdown": [":confused:"],
+    "unicode": "yes",
+    "aliases": ["nonplussed", "puzzled"],
+    "sentiments": []
+  },
+  {
+    "emoji": "🙁",
+    "name": "slightly frowning face",
+    "markdown": [":slightly_frowning_face:"],
+    "unicode": "yes",
+    "aliases": ["slightly sad"],
+    "sentiments": []
+  },
+  {
+    "emoji": "☹️",
+    "name": "frowning face",
+    "markdown": [":frowning_face:"],
+    "unicode": "yes",
+    "aliases": ["megafrown"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😣",
+    "name": "persevering",
+    "markdown": [":persevere:"],
+    "unicode": "yes",
+    "aliases": ["helpless face", "scrunched eyes"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😖",
+    "name": "confounded",
+    "markdown": [":confounded:"],
+    "unicode": "yes",
+    "aliases": ["quivering mouth", "scrunched face"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😫",
+    "name": "tired",
+    "markdown": [":tired_face:"],
+    "unicode": "yes",
+    "aliases": ["exhausted", "fed up"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😩",
+    "name": "weary",
+    "markdown": [":weary:"],
+    "unicode": "yes",
+    "aliases": ["wailing", "distraught", "tired", "fed up"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😤",
+    "name": "face with steam from nose",
+    "markdown": [":triumph:"],
+    "unicode": "yes",
+    "aliases": ["triumph", "frustrated", "mad face", "steaming"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😠",
+    "name": "angry",
+    "markdown": [":angry:"],
+    "unicode": "yes",
+    "aliases": ["grumpy face", "grumpy"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😡",
+    "name": "pouting face",
+    "markdown": [":rage:", ":pout:"],
+    "unicode": "yes",
+    "aliases": ["pout", "angry", "grumpy", "red face", "mad"],
+    "sentiments": []
+  },
+  {
+    "emoji": "😶",
+    "name": "face without mouth",
+    "markdown": [":no_mouth:"],
+    "unicode": "yes",
+    "aliases": ["blank face", "silence", "silent", "mouthless"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😐",
+    "name": "neutral face",
+    "markdown": [":neutral_face:"],
+    "unicode": "yes",
+    "aliases": ["face with straight mouth", "straight faced"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😑",
+    "name": "expressionless",
+    "markdown": [":expressionless:"],
+    "unicode": "yes",
+    "aliases": ["straight face"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😯",
+    "name": "hushed",
+    "markdown": [":hushed:"],
+    "unicode": "yes",
+    "aliases": ["surprise", "surprised face"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😦",
+    "name": "frowning face with open mouth",
+    "markdown": [":frowning:"],
+    "unicode": "yes",
+    "aliases": ["yawning"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😮",
+    "name": "face with open mouth",
+    "markdown": [":open_mouth:"],
+    "unicode": "yes",
+    "aliases": ["open mouth", "surprise"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😲",
+    "name": "astonished",
+    "markdown": [":astonished:"],
+    "unicode": "yes",
+    "aliases": ["drunk face", "gasping face", "shock", "gasp"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😵",
+    "name": "dizzy face",
+    "markdown": [":dizzy_face:"],
+    "unicode": "yes",
+    "aliases": ["cross eyes face", "spiral eyes face"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😳",
+    "name": "flushed face",
+    "markdown": [":flushed:"],
+    "unicode": "yes",
+    "aliases": ["blushing face", "embarrassed", "shame"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😱",
+    "name": "face screaming in fear",
+    "markdown": [":scream:"],
+    "unicode": "yes",
+    "aliases": ["scream", "home alone", "screaming face"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😨",
+    "name": "fearful face",
+    "markdown": [":fearful:"],
+    "unicode": "yes",
+    "aliases": ["scared", "surprised"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😰",
+    "name": "anxious face with sweat",
+    "markdown": [":cold_sweat:"],
+    "unicode": "yes",
+    "aliases": ["blue face", "concern", "nervous", "anxious"],
+    "sentiments": []
+  },
+      {
+    "emoji": "😢",
+    "name": "crying face",
+    "markdown": [":cry:"],
+    "unicode": "yes",
+    "aliases": ["crying", "tear", "sad"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😥",
+    "name": "sad but relieved",
+    "markdown": [":disappointed_relieved:"],
+    "unicode": "yes",
+    "aliases": ["eyebrow sweat"],
+    "sentiments": []
+  },
+    {
+    "emoji": "🤤",
+    "name": "drooling face",
+    "markdown": [":drooling_face:"],
+    "unicode": "yes",
+    "aliases": ["drool"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😭",
+    "name": "loudly crying face",
+    "markdown": [":sob:"],
+    "unicode": "yes",
+    "aliases": ["crying", "bawling", "sad tears", "sobbing", "sob"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😓",
+    "name": "downcast face with sweat",
+    "markdown": [":sweat:"],
+    "unicode": "yes",
+    "aliases": ["sweat", "hard work", "sorry"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😪",
+    "name": "sleepy",
+    "markdown": [":sleepy:"],
+    "unicode": "yes",
+    "aliases": ["snot bubble", "side-tear"],
+    "sentiments": []
+  },
+    {
+    "emoji": "😴",
+    "name": "sleeping",
+    "markdown": [":sleeping:"],
+    "unicode": "yes",
+    "aliases": ["zzz", "snoring"],
+    "sentiments": []
+  },
+    {
+    "emoji": "🙄",
+    "name": "face with rolling eyes",
+    "markdown": [":roll_eyes:"],
+    "unicode": "yes",
+    "aliases": ["eye roll"],
+    "sentiments": []
+  },
+    {
+    "emoji": "🤔",
+    "name": "thinking",
+    "markdown": [":thinking:"],
+    "unicode": "yes",
+    "aliases": ["chin thumb", "throwing shade", "thinker"],
+    "sentiments": []
+  },
+  //   {
+  //   "emoji": "🤥",
+  //   "name": "",
+  //   "markdown": [":lying_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //     {
+  //   "emoji": "🤐",
+  //   "name": "",
+  //   "markdown": [":zipper_mouth_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🤢",
+  //   "name": "",
+  //   "markdown": [":nauseated_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🤧",
+  //   "name": "",
+  //   "markdown": [":sneezing_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "😷",
+  //   "name": "",
+  //   "markdown": [":mask:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🤒",
+  //   "name": "",
+  //   "markdown": [":face_with_thermometer:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🤕",
+  //   "name": "",
+  //   "markdown": [":face_with_head_bandage:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "😈",
+  //   "name": "",
+  //   "markdown": [":smiling_imp:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "👿",
+  //   "name": "",
+  //   "markdown": [":imp:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "👹",
+  //   "name": "",
+  //   "markdown": [":japanese_ogre:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "👺",
+  //   "name": "",
+  //   "markdown": [":japanese_goblin:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //     {
+  //   "emoji": "💩",
+  //   "name": "",
+  //   "markdown": [":hankey:", ":poop:", ":shit:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "👻",
+  //   "name": "",
+  //   "markdown": [":ghost:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "💀",
+  //   "name": "",
+  //   "markdown": [":skull:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "☠️",
+  //   "name": "",
+  //   "markdown": [":skull_and_crossbones:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "👽",
+  //   "name": "",
+  //   "markdown": [":alien:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "👾",
+  //   "name": "",
+  //   "markdown": [":space_invader:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🤖",
+  //   "name": "",
+  //   "markdown": [":robot:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🎃",
+  //   "name": "",
+  //   "markdown": [":jack_o_lantern:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "😺",
+  //   "name": "",
+  //   "markdown": [":smiley_cat:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "😸",
+  //   "name": "",
+  //   "markdown": [":smile_cat:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //     {
+  //   "emoji": "😹",
+  //   "name": "",
+  //   "markdown": [":joy_cat:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "😼",
+  //   "name": "",
+  //   "markdown": [":smirk_cat:", ":kissing_cat:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "😻",
+  //   "name": "",
+  //   "markdown": [":heart_eyes_cat:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "🙀",
+  //   "name": "",
+  //   "markdown": [":scream_cat:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "😿",
+  //   "name": "",
+  //   "markdown": [":crying_cat_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": ""😾",
+  //   "name": "",
+  //   "markdown": [":pouting_cat:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+    {
+    "emoji": ""🤝",
+    "name": "handshake",
+    "markdown": [":handshake:"],
+    "unicode": "yes",
+    "aliases": ["shaking hands", "agree", "done"],
+    "sentiments": []
+  },
+    {
+    "emoji": ""🤚",
+    "name": "raised back of hand",
+    "markdown": [":raised_back_of_hand:"],
+    "unicode": "yes",
+    "aliases": ["backhand"],
+    "sentiments": []
+  },
+    {
+    "emoji": ""🖖",
+    "name": "vulcan salute",
+    "markdown": [":vulcan_salute:"],
+    "unicode": "yes",
+    "aliases": ["spock", "star trek"],
+    "sentiments": []
+  },
+    {
+    "emoji": ""🖐",
+    "name": "hand with fingers splayed",
+    "markdown": [":raised_hand_with_fingers_splayed:"],
+    "unicode": "yes",
+    "aliases": ["high five", "five hand", "splayed hand"],
+    "sentiments": []
+  },
+      {
+    "emoji": ""🤙",
+    "name": "call me hand",
+    "markdown": [":call_me_hand:"],
+    "unicode": "yes",
+    "aliases": ["phone hand", "shaka", "hang loose"],
+    "sentiments": []
+  },
+    {
+    "emoji": "✍️",
+    "name": "writing hand",
+    "markdown": [":writing_hand:"],
+    "unicode": "yes",
+    "aliases": ["writing"],
+    "sentiments": []
+  },
+//     {
+//     "emoji": ""🤳",
+//     "name": "",
+//     "markdown": [":selfie:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//     {
+//     "emoji": ""💅",
+//     "name": "",
+//     "markdown": [":nail_care:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//     {
+//     "emoji": ""💍",
+//     "name": "",
+//     "markdown": [":ring:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//     {
+//     "emoji": ""💄",
+//     "name": "",
+//     "markdown": [":lipstick:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//     {
+//     "emoji": ""💋",
+//     "name": "",
+//     "markdown": [":kiss:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//     {
+//     "emoji": ""👄",
+//     "name": "",
+//     "markdown": [":lips:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//     {
+//     "emoji": ""👅",
+//     "name": "",
+//     "markdown": [":tongue:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+// {
+//     "emoji": ""👂",
+//     "name": "",
+//     "markdown": [":ear:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""👃",
+//     "name": "",
+//     "markdown": [":nose:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""👣",
+//     "name": "",
+//     "markdown": [":footprints:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""👁",
+//     "name": "",
+//     "markdown": [":eye:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""👀",
+//     "name": "",
+//     "markdown": [":eyes:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🗣",
+//     "name": "",
+//     "markdown": [":speaking_head:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""👤",
+//     "name": "",
+//     "markdown": [":bust_in_silhouette:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""👥",
+//     "name": "",
+//     "markdown": [":busts_in_silhouette:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐶",
+//     "name": "",
+//     "markdown": [":dog:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐱",
+//     "name": "",
+//     "markdown": [":cat:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐭",
+//     "name": "",
+//     "markdown": [":mouse:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐹",
+//     "name": "",
+//     "markdown": [":hamster:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐰",
+//     "name": "",
+//     "markdown": [":rabbit:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🦊",
+//     "name": "",
+//     "markdown": [":fox_face:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐻",
+//     "name": "",
+//     "markdown": [":bear:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐼",
+//     "name": "",
+//     "markdown": [":panda_face:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐨",
+//     "name": "",
+//     "markdown": [":koala:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐯",
+//     "name": "",
+//     "markdown": [":tiger:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🦁",
+//     "name": "",
+//     "markdown": [":lion:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐮",
+//     "name": "",
+//     "markdown": [":cow:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐷",
+//     "name": "",
+//     "markdown": [":pig:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐵",
+//     "name": "",
+//     "markdown": [":monkey_face:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🙈",
+//     "name": "",
+//     "markdown": [":see_no_evil:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🙉",
+//     "name": "",
+//     "markdown": [":hear_no_evil:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🙊",
+//     "name": "",
+//     "markdown": [":speak_no_evil:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐒",
+//     "name": "",
+//     "markdown": [":monkey:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐕",
+//     "name": "",
+//     "markdown": [":dog2:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐩",
+//     "name": "",
+//     "markdown": [":poodle:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🐈",
+//     "name": "",
+//     "markdown": [":cat2:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🌕",
+//     "name": "",
+//     "markdown": [":full_moon:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🌖",
+//     "name": "",
+//     "markdown": [":waning_gibbous_moon:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🌗",
+//     "name": "",
+//     "markdown": [":last_quarter_moon:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🌘",
+//     "name": "",
+//     "markdown": [":waning_crescent_moon:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🌑",
+//     "name": "",
+//     "markdown": [":new_moon:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🌒",
+//     "name": "",
+//     "markdown": [":waxing_crescent_moon:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🌓",
+//     "name": "",
+//     "markdown": [":first_quarter_moon:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🌔",
+//     "name": "",
+//     "markdown": [":moon:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+//   {
+//     "emoji": ""🌔",
+//     "name": "",
+//     "markdown": [":waxing_gibbous_moon:"],
+//     "unicode": "yes",
+//     "aliases": [],
+//     "sentiments": []
+//   },
+  {
+    "emoji": ""🌚",
+    "name": "new moon face",
+    "markdown": [":new_moon_with_face:"],
+    "unicode": "yes",
+    "aliases": ["cheeky moon face"],
+    "sentiments": []
+  },
+  {
+    "emoji": ""🌝",
+    "name": "full moon face",
+    "markdown": [":full_moon_with_face:"],
+    "unicode": "yes",
+    "aliases": ["moon face", "cheeky moon face", "literally the best emoji"],
+    "sentiments": []
+  },
+  // {
+  //   "emoji": ""🌞",
+  //   "name": "",
+  //   "markdown": [":sun_with_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  // {
+  //   "emoji": ""🌛",
+  //   "name": "",
+  //   "markdown": [":first_quarter_moon_with_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  // {
+  //   "emoji": ""🌜",
+  //   "name": "",
+  //   "markdown": [":last_quarter_moon_with_face:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  // {
+  //   "emoji": ""🌙",
+  //   "name": "",
+  //   "markdown": [":crescent_moon:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  // {
+  //   "emoji": ""💫",
+  //   "name": "",
+  //   "markdown": [":dizzy:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": "⭐️",
+  //   "name": "",
+  //   "markdown": [":star:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": ""🌟",
+  //   "name": "",
+  //   "markdown": [":star2:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+    {
+    "emoji": "✨",
+    "name": "sparkles",
+    "markdown": [":sparkles:"],
+    "unicode": "yes",
+    "aliases": ["sparkle", "glitter"],
+    "sentiments": []
+  },
+  //   {
+  //   "emoji": "⚡️",
+  //   "name": "",
+  //   "markdown": [":zap:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": ""🔥",
+  //   "name": "",
+  //   "markdown": [":fire:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  //   {
+  //   "emoji": ""💥",
+  //   "name": "",
+  //   "markdown": [":boom:", ":collision:"],
+  //   "unicode": "yes",
+  //   "aliases": [],
+  //   "sentiments": []
+  // },
+  {
+    "emoji": "👍",
+    "name": "thumbs up",
+    "markdown": [":+1:", ":thumbsup:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": ["good"]
+  },
+  {
+    "emoji": "👎",
+    "name": "thumbs down",
+    "markdown": [":-1:", ":thumbsdown:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": ["bad"]
+  },
+  {
+    "emoji": "👌",
+    "name": "ok",
+    "markdown": [":ok_hand:"],
+    "unicode": "yes",
+    "aliases": ["okay", "all good"],
+    "sentiments": ["good"]
+  },
+  {
+    "emoji": "👊",
+    "name": "punch",
+    "markdown": [":punch:", ":facepunch:", ":fist_oncoming:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": ["bad"]
+  },
+  {
+    "emoji": "✊",
+    "name": "fist left",
+    "markdown": [":fist_left:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+    {
+    "emoji": ""🤜",
+    "name": "fist right",
+    "markdown": [":fist_right:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+    {
+    "emoji": "🤞",
+    "name": "crossed fingers",
+    "markdown": [":crossed_fingers:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+  {
+    "emoji": "👋",
+    "name": "wave",
+    "markdown": [":wave:"],
+    "unicode": "yes",
+    "aliases": ["hey", "hi"],
+    "sentiments": ["good"]
+  },
+  {
+    "emoji": "✋",
+    "name": "hand",
+    "markdown": [":hand:", ":raised_hand:"],
+    "unicode": "yes",
+    "aliases": ["raised hand"],
+    "sentiments": []
+  },
+  {
+    "emoji": "✌️",
+    "name": "peace",
+    "markdown": [":v:"],
+    "unicode": "yes",
+    "aliases": ["v"],
+    "sentiments": ["good"]
+  },
+  {
+    "emoji": "👐",
+    "name": "open hands",
+    "markdown": [":open_hands:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+  {
+    "emoji": "☝️",
+    "name": "point up",
+    "markdown": [":point_up:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+  {
+    "emoji": "👈",
+    "name": "point left",
+    "markdown": [":point_left:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+  {
+    "emoji": "👇",
+    "name": "point down",
+    "markdown": [":point_down:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+  {
+    "emoji": "👉",
+    "name": "point right",
+    "markdown": [":point_right:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": []
+  },
+  {
+    "emoji": "🙌",
+    "name": "raised hands",
+    "markdown": [":raised_hands:"],
+    "unicode": "yes",
+    "aliases": ["praise"],
+    "sentiments": ["good"]
+  },
+  {
+    "emoji": "🙏",
+    "name": "pray",
+    "markdown": [":pray:"],
+    "unicode": "yes",
+    "aliases": ["thanks", "please", "thank you"],
+    "sentiments": []
+  },
+  {
+    "emoji": "👏",
+    "name": "clap",
+    "markdown": [":clap:"],
+    "unicode": "yes",
+    "aliases": [],
+    "sentiments": ["good"]
+  },
+  {
+    "emoji": "💪",
+    "name": "muscle",
+    "markdown": [":muscle:"],
+    "unicode": "yes",
+    "aliases": ["strong", "bicep", "flex"],
+    "sentiments": []
+  },
+  {
+    "emoji": "🤘",
+    "name": "metal",
+    "markdown": [":metal:"],
+    "unicode": "yes",
+    "aliases": ["rock on"],
+    "sentiments": []
+  },
+  {
+    "emoji": "🖕",
+    "name": "f**k you",
+    "markdown": [":fu:", ":middle_finger:"],
+    "unicode": "yes",
+    "aliases": ["middle finger", "fu", "bird"],
+    "sentiments": []
+  }
+]
