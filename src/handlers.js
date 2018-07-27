@@ -1,15 +1,18 @@
 const fs = require("fs");
 const path = require("path");
 const emojiObj = require("./emojis.json");
+function returnError() {
+  console.log(error);
+  response.writeHead(500, "Content-type: text/html");
+  response.end("<h1>Sorry, we've had an error on our end 😣</h1>");
+}
 
 const handleHomeRoute = (response) => {
   fs.readFile(
     path.join(__dirname, "..", "public", "index.html"),
     (error, file) => {
       if (error) {
-        console.log(error);
-        response.writeHead(500, "Content-type: text/html");
-        response.end("<h1>Sorry, we've had an error on our end 😣</h1>");
+        returnError();
       } else {
         response.writeHead(200, "Content-Type: text/html");
         response.end(file);
@@ -33,9 +36,7 @@ const handlePublic = (request, response) => {
 
   fs.readFile(path.join(__dirname, "..", url), (error, file) => {
     if (error) {
-      console.log(error);
-      response.writeHead(500, "Content-type: text/html");
-      response.end("<h1>Sorry, we've had an error on our end 😣</h1>");
+      returnError();
     } else {
       response.writeHead(200, `Content-Type: ${extensionType[extension]}`);
       response.end(file);
