@@ -55,7 +55,7 @@ const handleAutoCompleteQuery = (request, response) => {
     emojiObj.forEach(emoji => {
       //checks if emoji name contains user query
       if (emoji.name.indexOf(query) !== -1) {
-        resultArr.push(emoji.name);
+        resultArr.push((emoji.name + emoji.emoji));
       }
     });
     //returns first five results
