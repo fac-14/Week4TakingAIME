@@ -39,16 +39,6 @@ h1 {
   grid-column: 2 / 3;
   width: 50vw;
 }
-/* 
-#result {
-  display: grid;
-  text-align: center;
-  justify-self: center;
-  align-self: center;
-  grid-row: 3 / 4;
-  grid-column: 2 / 3;
-  /* border-style: solid; */
-/* } */
 
 input[type="text"] {
   display: grid;
@@ -78,6 +68,14 @@ button {
   border: 2px black solid;
   padding: 3% 3%;
   margin: 10px 0px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+ background-color: #CCFF00;
+ color: #353839;
+ cursor: pointer; 
 }
 
 #modal-bg {
@@ -112,7 +110,7 @@ button {
   text-align: center;
   font-family: "Comfortaa", cursive;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 #emoji-image {
@@ -130,17 +128,8 @@ button {
   text-align: center;
   font-family: "Comfortaa", cursive;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2.25rem;
 }
-
-/* #emoji-aliases {
-  display: grid;
-  grid-column: 2 / 3;
-  text-align: center;
-  font-family: 'Comfortaa', cursive;
-  font-weight: 700;
-  font-size: 2rem;
-} */
 
 #close-modal {
   display: grid;
@@ -149,4 +138,8 @@ button {
   align-self: center;
   justify-self: center;
   width: 30%;
+}
+
+#close-modal > button {
+  font-size: 2rem;
 }
