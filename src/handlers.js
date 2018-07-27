@@ -34,7 +34,7 @@ const handlePublic = (request, response) => {
     json: "application/json"
   };
 
-  fs.readFile(path.join(__dirname, "..", url), (error, file) => {
+  fs.readFile(path.join(__dirname, "..", request.url), (error, file) => {
     if (error) {
       returnError();
     } else {
