@@ -12,7 +12,18 @@ const emojiImageContainer = document.getElementById("emoji-image");
 const emojiMarkdownContainer = document.getElementById("emoji-markdown");
 
 searchBox.addEventListener("input", function() {
-  apiRequest(searchBox.value, false, function(data) {
+  var previousInput = '';
+  function waitForInput (searchInput) {
+    previousInput = searchInput;
+    setTimeout(function() {
+      //if user has typed more, make api request
+      if (searchInput === previousInput) {
+        autocomplete(searchInput);
+      }
+    }, 250); 
+  }
+  function autocomplete (searchInput) {
+    apiRequest(searchInput, false, function(data) {
     var optionsList = document.querySelectorAll("option");
     //clears option list
     optionsList.forEach(option => {
@@ -24,6 +35,8 @@ searchBox.addEventListener("input", function() {
       optionID.value = data[i];
     }
   });
+};
+waitForInput(searchBox.value);
 });
 
 submitButton.addEventListener("click", function() {
